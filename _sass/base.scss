@@ -1,0 +1,28 @@
+body {
+  font-family: var(--font-stack);
+  color: var(--base-text-color);
+  line-height: var(--base-line-height);
+  font-size: var(--base-text-size);
+  background-color: var(--background-color);
+}
+
+ul, ol {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+a, a:visited {
+  color: var(--base-text-color);
+}
+
+main {
+  max-width: 100ch;
+  margin: 1em auto;
+  padding: 0 2em;
+}

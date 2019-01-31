@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/recipe.css">
+
+{% assign recipe = site.data.recipes[page.recipe] %}
+
+{%- if recipe -%}
+<script type="application/ld+json">
+ {{ recipe | jsonify }}
+</script>
+{%- endif -%}
+
+<div class="grid">
+    <div id="left">
+        <figure id="recipe-image">
+            <img src="{{ recipe.image }}">
+        </figure>
+
+        <section id="ingredients">
+            <ul>
+                {%- for i in recipe.ingredients %}
+                <li class="ingredient">{{i}}</li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+
+    <div id="right">
+        <header>
+            <h1>
+                <a href="{{ recipe.url }}"> {{ recipe.name }} </a>
+            </h1>
+            <div id="description">
+                <span id="quote"></span>
+                <p>{{recipe.description}}</p>
+            </div>
+        </header>
+
+        <section id="instructions">
+            <ol>
+                {% for i in recipe.instructions %}
+                <li class="instruction">{{ i }}</li>
+                {% endfor %}
+            </ol>
+        </section>
+
+        <section id="notes">
+            <h2>Notes</h2>
+            {{ content }}
+        </section>
+    </div>
+</div>

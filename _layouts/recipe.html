@@ -16,7 +16,9 @@ layout: default
     <section class="header">
         <h1>
             {{ recipe.name }}
+            {% if recipe.url %}
             <small>(<a href="{{ recipe.url }}">via</a>)</small>
+            {% endif %}
         </h1>
 
         {{ content }}

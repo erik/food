@@ -1,0 +1,24 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "Lazy Sourdough",
+    "ingredients": [
+      "425 grams bread flour",
+      "6 grams salt",
+      "180 grams sourdough starter",
+      "300 grams lukewarm water"
+    ],
+    "instructions": [
+      "In a large mixing bowl, combine lukewarm water and starter, mix until dissolved.",
+      "Mix in flour and salt, mix until a sticky ball forms. Cover the bowl and let rest for 10-30 minutes.",
+      "Knead the dough a bit. Fold it over itself a few times and cover it again. Repeat the rest + folder a few times, or don't, if you're feeling extra lazy.",
+      "Leave bowl covered for 12-24 hours. 24 hours might end up being too sour, depending on the starter.",
+      "Dust a clean surface with flour, and scoop the dough out. It will deflate a bit.",
+      "Cover with a little more flour and shape into a ball.",
+      "Scoop the dough into a bowl lined with parchment paper, seam side down. Cover and let sit for 2 more hours.",
+      "Preheat oven to 450 with a dutch oven inside.",
+      "Score the top of the dough and place it in the dutch oven along with the parchment paper.",
+      "Cover, bake for 25-30 minutes. Uncover, bake for another 20-30 minutes. Be patient, it probably will take a while.",
+      "Let cool for 30 minutes (or until the crackling sound stops)"
+    ]
+}

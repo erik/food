@@ -12,43 +12,36 @@ layout: default
 </script>
 {%- endif -%}
 
-<div class="grid">
-    <div id="left">
-        <figure id="recipe-image">
-            <img src="{{ recipe.image }}">
-        </figure>
+<div class="recipe-grid">
+    <section class="header">
+        <h1>
+            {{ recipe.name }}
+            <small>(<a href="{{ recipe.url }}">via</a>)</small>
+        </h1>
 
-        <section id="ingredients">
-            <ul>
-                {%- for i in recipe.ingredients %}
-                <li class="ingredient">{{i}}</li>
-                {% endfor %}
-            </ul>
-        </section>
-    </div>
+        {{ content }}
+    </section>
 
-    <div id="right">
-        <header>
-            <h1>
-                <a href="{{ recipe.url }}"> {{ recipe.name }} </a>
-            </h1>
-            <div id="description">
-                <span id="quote"></span>
-                <p>{{recipe.description}}</p>
-            </div>
-        </header>
+    <section class="meta">
+        <!-- TODO: hook up tags etc. -->
+    </section>
 
-        <section id="instructions">
-            <ol>
-                {% for i in recipe.instructions %}
-                <li class="instruction">{{ i }}</li>
-                {% endfor %}
-            </ol>
-        </section>
+    <section class="ingredients">
+        <ul>
+            <h2>Ingredients</h2>
 
-        <section id="notes">
-            <h2>Notes</h2>
-            {{ content }}
-        </section>
-    </div>
+            {% for i in recipe.ingredients %}
+            <li class="ingredient">{{i}}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+            {% for i in recipe.instructions %}
+            <li class="instruction">{{ i }}</li>
+            {% endfor %}
+        </ol>
+    </section>
 </div>

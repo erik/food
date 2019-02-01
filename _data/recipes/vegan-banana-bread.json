@@ -1,0 +1,36 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Recipe",
+  "aggregateRating": {
+    "ratingValue": "4.8",
+    "ratingCount": "25"
+  },
+  "name": "The Perfect Vegan Banana Bread",
+  "image": "https://www.thebakingfairy.net/wp-content/uploads/2015/05/vegan_banana_bread01.png",
+  "url": "https://www.thebakingfairy.net/2015/05/the-perfect-vegan-banana-bread/",
+  "prepTime": "10 mins",
+  "cookTime": "60 mins",
+  "totalTime": "1 hour 10 mins",
+  "author": "Valentina | The Baking Fairy",
+  "recipeCategory": "Breads & Loaf Cakes",
+  "recipeYield": "one 9x5 pan",
+  "ingredients": [
+    "4 medium ripe bananas",
+    "¼ cup vegetable oil",
+    "¼ cup almond milk",
+    "½ cup light brown sugar",
+    "2 tsp pure vanilla extract",
+    "2 cup unbleached all-purpose flour",
+    "1 tsp cinnamon",
+    "1 tsp baking soda",
+    "½ tsp salt",
+    "sliced bananas, for topping"
+  ],
+  "instructions": [
+    "Preheat the oven to 350F. Spray a 9×5 loaf pan with nonstick spray, then flour.",
+    "In a large mixing bowl, roughly mash the bananas. Add the brown sugar, oil, vanilla, and almond milk, and whisk to incorporate.",
+    "Sift in the flour, baking soda, salt, and cinnamon, and use a wooden spoon to mix.",
+    "Transfer the batter to your prepared pan, and top with the extra banana slices.",
+    "Bake for about 45 minutes, then cover with foil and bake for 10-15 minutes longer, until a toothpick inserted in the center comes out with just a couple crumbs."
+  ]
+}

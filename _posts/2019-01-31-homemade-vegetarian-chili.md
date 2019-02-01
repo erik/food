@@ -4,5 +4,8 @@ recipe: homemade-vegetarian-chili
 tags: ['vegan', 'dinner', 'easy']
 ---
 
-Made this a couple times, super easy. Go heavy on the spices, swap out
-the celery for corn.
+Lots of canned vegetables, easy to make as a fallback. Super tasty by
+itself, but goes well with some combination of tortilla chips, bread,
+and avocado.
+
+Definitely go heavy on the spices, swap out the celery for corn.

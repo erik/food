@@ -25,15 +25,11 @@
       grid-row: 1;
       grid-column: 5 / -1;
     }
-
-    ul, ol {
-      margin-left: 0;
-      padding-left: 0;
-    }
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (min-width: 320px) and (max-width: 800px) {
   .recipe-grid {
     display: block;
     padding: 0 1em;
@@ -48,6 +44,25 @@
   list-style: none;
 }
 
+.ingredient {
+  list-style: none;
+}
+
+.ingredient-group {
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  list-style: none;
+}
+
 .instruction {
   margin-bottom: 1.2em;
+}
+
+ul, ol {
+  padding-left: 0;
 }

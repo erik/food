@@ -1,7 +1,8 @@
 ---
 layout: recipe
 recipe: vegan-banana-bread
-tags: ['vegan', 'dessert']
+tags: ['vegan']
+category: dessert
 ---
 
 Walnuts are good as a topping. Mixing some chocolate bits into the

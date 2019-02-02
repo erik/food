@@ -1,7 +1,8 @@
 ---
 layout: recipe
 recipe: homemade-vegetarian-chili
-tags: ['vegan', 'dinner', 'easy']
+tags: ['vegan', 'easy']
+category: dinner
 ---
 
 Lots of canned vegetables, easy to make as a fallback. Super tasty by

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 recipe: lazy-sourdough
-tags: [baking]
+category: bread
 ---
 
 A spin-off of [NYT's sourdough no-knead

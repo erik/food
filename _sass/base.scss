@@ -6,23 +6,18 @@ body {
   background-color: var(--background-color);
 }
 
-ul, ol {
-  padding-left: 0;
-  margin-top: 0;
-}
-
 h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.2em;
+  color: var(--accent-color);
 }
 
 a, a:visited {
-  color: var(--base-text-color);
+  color: var(--accent-color);
 }
 
 main {
   max-width: 100ch;
   margin: 1em auto;
-  padding: 0 2em;
 }

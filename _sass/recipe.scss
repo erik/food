@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 0 2em;
+    padding: 1em;
 
     .header {
       grid-row: 1;
@@ -12,6 +13,7 @@
     .ingredients {
       grid-row: 2;
       grid-column: 5 / -1;
+
     }
 
     .instructions {
@@ -22,6 +24,11 @@
     .meta {
       grid-row: 1;
       grid-column: 5 / -1;
+    }
+
+    ul, ol {
+      margin-left: 0;
+      padding-left: 0;
     }
   }
 }

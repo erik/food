@@ -45,7 +45,8 @@
 }
 
 .ingredient {
-  list-style: none;
+  list-style-position: outside;
+  margin-left: 1em;
 }
 
 .ingredient-group {
@@ -61,6 +62,7 @@
 
 .instructions ol {
   padding-left: 1em;
+  list-style-position: outside;
 }
 
 .instruction {

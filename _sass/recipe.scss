@@ -59,10 +59,14 @@
   list-style: none;
 }
 
+.instructions ol {
+  padding-left: 1em;
+}
+
 .instruction {
   margin-bottom: 1.2em;
 }
 
-ul, ol {
+ul {
   padding-left: 0;
 }

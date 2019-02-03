@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/base.css">
+
+<div class="recipe-grid">
+    <section class="header">
+        <h1>
+            {{ page.title }}
+            {% if page.recipe_url %}
+            <small>(<a href="{{ recipe_url }}">via</a>)</small>
+            {% endif %}
+        </h1>
+    </section>
+
+    {{ content }}
+</div>

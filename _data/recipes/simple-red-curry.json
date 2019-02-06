@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Simple Thai Red Curry",
+  "ingredients": [
+    "15 ounce can of full fat coconut milk",
+    "1 pack medium firm tofu, cut into chunks",
+    "4-5 heads baby bok choy, separated",
+    "1 red bell pepper, cut into strips",
+    "1 yellow, green, or orange bell pepper, cut into strips",
+    "2 tbsp red curry paste",
+    "1 tbsp coconut oil",
+    "Rice noodles (1/4 pound?)"
+  ],
+  "instructions": [
+    "Let rice noodles soak in warm water to have them soften up.",
+    "Heat a large pan. Once hot, add red curry paste and coconut milk and mix to combine. Turn down the heat a bit once this starts simmering.",
+    "While coconut milk is simmering, cut tofu into small pieces and heat oil in another skillet. Once hot, add tofu and quickly pan fry. Remove from heat when done.",
+    "Separate heads of bok choy and add to coconut milk, along with red bell pepper. Cook for a few minutes, until bok choy is tender.",
+    "Add tofu and stir to combine. Let this cook through, another few minutes.",
+    "Make sure the rice noodles are soft at this point, and drain the water. Combine with the rest of the ingredients, stir to combine.",
+    "Turn off the heat, serve with Thai basil, chili garlic sauce, whatever."
+  ]
+}

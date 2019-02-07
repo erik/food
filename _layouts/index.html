@@ -4,17 +4,23 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/base.css">
 
-{%- if site.posts.size > 0 -%}
-<ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-        <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-            </a>
-        </h3>
-        {{ post.excerpt }}
-    </li>
-    {%- endfor -%}
-</ul>
-{%- endif -%}
+{% for category in site.categories %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+<section class="category-listing">
+    <h1 class="category-title">{{ category_name | title }}</h1>
+    <ul class="post-list">
+        {%- for post in site.categories[category_name] -%}
+        <li>
+            <div class="post-title">
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </div>
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+</section>
+{% endfor %}

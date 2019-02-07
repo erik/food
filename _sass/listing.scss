@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+.post-list {
+  list-style: number;
+  padding: 0;
+
+  .post-excerpt p {
+    margin-top: 0;
+  }
+}
+
+.category-title {
+  font-size: 2em;
+  text-transform: full-width;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}

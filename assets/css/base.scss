@@ -3,12 +3,4 @@
 
 @import 'variables';
 @import 'base';
-
-.post-list {
-  list-style: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
+@import 'listing';

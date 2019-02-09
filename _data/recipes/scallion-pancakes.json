@@ -1,0 +1,35 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Scallion Pancakes",
+  "url": "https://www.seriouseats.com/recipes/2011/04/extra-flaky-scallion-pancakes-recipe.html",
+  "ingredients": [
+      "### Pancakes",
+      "2 cups flour",
+      "1 cup boiling water",
+      "1/4 cup (ish) sesame seed oil",
+      "2 cups sliced scallions",
+
+      "### Dipping Sauce",
+      "2 tbsp soy sauce",
+      "2 tbsp rice wine vinegar",
+      "1 tbsp sliced scallions",
+      "1/2 tsp scallion",
+      "1/2 tsp ginger",
+      "2 tsp sugar",
+
+      "### For Frying",
+      "1/4 cup vegetable oil",
+      "Salt"
+  ],
+  "instructions": [
+      "Put flour into food processor, drizzle in 3/4 cup boiling water. Process until dough sticks together in a ball, adding more boiling water slowly as necessary.",
+      "Transfer ball to a bowl, cover and let rest for 30 minutes (or overnight in the fridge).",
+      "Divide the dough into 4 pieces with a dough scraper and roll each into a ball.",
+      "Using a rolling pin on a floured surface, flatten each ball into a pancake about 8 inches in diameter. Use a pastry brush to layer on sesame oil, then roll the disk up (like a jelly roll, apparently). Twist this into a spiral, tucking the end underneath, and flatten with your palm.",
+      "Repeat this process again, this time adding 1/2 cup scallions after spreading the sesame oil. Repeat the jelly roll and spiral thing again and roll it back out into a disk.",
+      "Repeat this process for all remaining balls of dough.",
+      "Mix up the ingredients for the sauce (if making), and set aside.",
+      "Heat oil in pan, add pancake when hot. Fry for a few minutes, then flip. Cut into slices, season with a bit of salt, and serve."
+  ]
+}

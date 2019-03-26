@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Vegan Tortilla Soup",
+  "image": [
+    "https://cookieandkate.com/images/2013/11/vegetarian-tortilla-soup-1.jpg"
+  ],
+  "url": "https://cookieandkate.com/2013/vegetarian-tortilla-soup/",
+  "ingredients": [
+    "1 dried smoked chili pepper or 1 poblano pepper",
+    "Olive oil",
+    "1 medium white onion, diced",
+    "3 cloves garlic, pressed or minced",
+    "3 medium jalapeños",
+    "3 teaspoon ground cumin",
+    "14-ounce can crushed tomatoes or chunky tomato sauce",
+    "32 ounces (4 cups) vegetable stock",
+    "14-ounce can corn",
+    "14-ounce can navy beans",
+    "14-ounce can black beans, rinsed and drained",
+    "Sea salt",
+    "6 corn tortillas (taco size)",
+
+    "### Optional toppings",
+    "1 avocado",
+    "2 to 4 radishes, sliced into super thin rounds",
+    "1 handful cilantro leaves, chopped",
+    "1 lime, sliced into small wedges"
+  ],
+  "instructions": [
+    "Preheat the oven to 475 degrees Fahrenheit. Stack the tortillas and slice them into 1/2-inch wide strips.",
+    "Coat a baking sheet with a thin layer of oil. Toss the tortilla strips in the oil to coat. Stir periodically, baking until golden brown. While the strips are hot, season them with salt.",
+    "Remove the seeds and membranes from the jalapeno (and poblano, if using) and chop the peppers",
+    "Place the dried chili pepper onto a baking sheet and bake for about 1 minute. When cool enough to handle, cut the pepper open and remove the seeds.",
+    "In a medium pot, heat olive oil on medium until hot. Add the onion, garlic, jalapeno and poblano peppers. Cook 4 to 5 minutes, or until softened, stirring occasionally. Stir in the cumin, then the canned tomatoes and vegetable stock. Simmer for about 3 minutes, then add the hominy, black beans and the seeded chili pepper. Cook for 8 to 10 minutes, or until slightly thickened, stirring occasionally. Season to taste.",
+    "Garnish with whichever toppings you want and serve."
+  ]
+}

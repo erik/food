@@ -1,17 +1,8 @@
 :root {
-  /* Global variables */
-  --base-text-color: #444;
+  --base-text-color: #333;
   --base-text-size: 100%;
-  --info-text-color: #8e908c;
-  --font-stack: Helvetica, Arial, sans-serif;
+  --font-stack: Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   --base-line-height: 1.6;
   --background-color: #fff;
-
-  /* Recipe specific variables */
-  --accent-color: #02779E;
-  --large-text-toggle: 0;
-
-  /* Variables not configured by options */
-  --fast-transition-time: 0.1s;
-  --slow-transition-time: 0.5s;
+  --accent-color: #222;
 }

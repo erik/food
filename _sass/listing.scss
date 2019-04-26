@@ -1,9 +1,24 @@
-a {
+main {
+  display: grid;
+  padding: 0 1em;
+
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2em;
+  }
+}
+
+.post-link {
   text-decoration: none;
 }
 
+.post-link:hover {
+  color: white;
+  background: var(--accent-color);
+}
+
 .post-list {
-  list-style: number;
+  list-style: none;
   padding: 0;
 
   .post-excerpt p {

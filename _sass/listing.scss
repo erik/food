@@ -1,4 +1,4 @@
-main {
+.post-listing {
   display: grid;
   padding: 0 1em;
 
@@ -17,7 +17,7 @@ main {
   background: var(--accent-color);
 }
 
-.post-list {
+.post-list-item {
   list-style: none;
   padding: 0;
 

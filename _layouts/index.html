@@ -4,20 +4,22 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/base.css">
 
-{% for category in site.categories %}
-{% capture category_name %}{{ category | first }}{% endcapture %}
-<section class="category-listing">
-    <h1 class="category-title">{{ category_name | title }}</h1>
-    <ul class="post-list">
-        {%- for post in site.categories[category_name] -%}
-        <li>
-            <div class="post-title">
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </div>
-        </li>
-        {%- endfor -%}
-    </ul>
-</section>
-{% endfor %}
+<div class="post-listing">
+    {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <section class="category-listing">
+        <h1 class="category-title">{{ category_name | title }}</h1>
+        <ul class="post-list-item">
+            {%- for post in site.categories[category_name] -%}
+            <li>
+                <div class="post-title">
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </div>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </section>
+    {% endfor %}
+</div>

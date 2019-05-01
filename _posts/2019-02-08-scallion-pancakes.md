@@ -1,6 +1,6 @@
 ---
 layout: recipe
-category: dinner
+category: sides
 recipe: scallion-pancakes
 ---
 

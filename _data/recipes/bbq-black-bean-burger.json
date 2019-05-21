@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "BBQ Black Bean Burger",
+  "description": "Smoky, hearty black bean burgers with sweet potato, mushrooms, quinoa, and pecans. Wholesome, satisfying, BIG on flavor, and just 10 ingredients required! The ultimate veggie burgers for the grill or stovetop.",
+  "url": "https://minimalistbaker.com/smoky-bbq-black-bean-burger/",
+  "image": [
+    "https://minimalistbaker.com/wp-content/uploads/2018/02/BBQ-Black-Bean-Burger-SQUARE.jpg"
+  ],
+  "ingredients": [
+    "1 cup cooked + cooled quinoa (roughly 1/3 cup dry)",
+    "1 15-ounce can black beans (rinsed and dried)",
+    "2/3 cup raw pecans",
+    "1 Tbsp coconut or avocado oil",
+    "1 cup sliced and peeled sweet potato (cut into 1/4-inch rounds)",
+    "2 cups thinly sliced cremini mushroom",
+    "2 Tbsp coconut aminos",
+    "1/2 tsp sea salt",
+    "3 tsp chili powder",
+    "3 tsp cumin powder",
+    "3 Tbsp BBQ sauce (Trader Joe's Ketucky Style is a safe bet)",
+    "Hamburger buns",
+    "Toppings of choice (red onion, lettuce, tomato, pickles)"
+  ],
+  "instructions": [
+    "Add 1 part rinsed quinoa to saucepan and toast for a few minutes over medium heat. Add 2 parts water and and bring to a boil. Reduce heat and cook until water is absorbed. Set aside to cool.",
+    "Preheat oven to 350 degrees F and spread rinsed, dried black beans onto a parchment-lined baking sheet. Bake beans for 6 minutes, then add pecans to the baking sheet and bake for 10 minutes more. Set aside to cool.",
+    "In the meantime, heat a cast-iron or metal skillet over medium heat. Once hot, add oil and sweet potato. Cover and cook for 3-4 minutes. Once browned on the underside, flip and cook for 3-4 minutes more or until tender and golden brown. Remove from the pan.",
+    "Add sliced mushrooms and coconut aminos to the pan and cook on medium heat for 4-5 minutes, stirring frequently, or until they’re browned, fragrant, and cooked down to half their size. Set aside.",
+    "Add beans and pecans to food processor, and pulse into a loose meal (make sure some chunks are left).",
+    "Next, add cooked sweet potato, mushrooms, HALF the quinoa, sea salt, chili powder, cumin, and BBQ sauce and pulse a few times to combine (again, make sure to keep some texture).",
+    "Transfer the mixture to a mixing bowl and stir in the rest of the quinoa. Then taste and adjust flavor as needed, adding more cumin for smokiness, chili powder for heat, BBQ sauce for sweetness, or salt for saltiness.",
+    "If the mixture is too wet, add more quinoa, or BBQ sauce if it's too dry.",
+    "Divide the mixture into evenly sized balls (roughly 8) and form into patties with your hands. Mash slightly into more of a disc. Refrigerate burgers for 30 minutes.",
+    "Once chilled, heat the cast-iron or metal pan from earlier over medium heat. Once hot, add a bit more oil and the burgers. Cook for 4-5 minutes. Then carefully flip and cook for 4-5 minutes on the other side.",
+    "Serve with toppings."
+  ]
+}

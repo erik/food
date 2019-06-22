@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Homemade Black Pepper Pasta",
+  "url": "https://www.thecuriouschickpea.com/egg-free-vegan-homemade-black-pepper-pasta",
+  "ingredients": [
+    "250 grams all purpose flour",
+    "1/2 cup reduced aquafaba (roughly liquid from 2 cans chickpeas)",
+    "1 tsp sea salt",
+    "1 tbsp extra virgin olive oil",
+    "1 tsp freshly ground black pepper"
+  ],
+  "instructions": [
+    "Simmer aquafaba in saucepan for 5-10 minutes until volume is reduced to half.",
+    "Add flour, salt, and black pepper into the bowl of a food processor and pulse to combine. Add the oil and aquafaba and turn the food processor on and run until the mixture forms into a ball. Keep running another 30 seconds.",
+    "Turn the dough out onto a clean counter and knead for 1 minute to check the final texture of the dough. It should be firm, but still pliable and not sticky or tacky to the touch.",
+    "Wrap the dough with plastic wrap and let rest for at least 30 minutes.",
+    "When ready to roll the dough, divide into 3 or 4 portions. Keep pieces of dough that you're not actively using tightly wrapped.",
+    "Roll the section of dough with a rolling pin until it's long and rectangular and thin enough to see through.",
+    "Dust rolled dough with flour, fold repeatedly, and cut to desired size.",
+    "Dump pasta into pot of salted boiling water for 1-2 minutes (until it begins to float to surface)",
+    "Place any unused balls of dough in the fridge."
+  ]
+}

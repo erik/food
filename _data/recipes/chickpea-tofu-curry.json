@@ -1,0 +1,36 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Chickpea Tofu Curry",
+  "url": "https://www.veganbell.com/chickpea-tofu-curry/",
+  "ingredients": [
+    "### Tofu",
+    "1 package extra firm tofu",
+    "2 tbsp flour",
+    "1/2 tsp salt",
+    "1/2 tsp black pepper",
+    "1 tbsp olive oil",
+    "### Masala",
+    "1 tbsp olive oil",
+    "4 cloves garlic (minced)",
+    "1 inch ginger (grated)",
+    "2 green chilies (chopped)",
+    "1 onion (chopped)",
+    "1/2 cup canned diced tomatoes",
+    "1/2 tsp turmeric powder",
+    "1/2 tsp cumin powder",
+    "1/2 tsp asafoetida powder",
+    "2 cans chickpeas",
+    "1 1/2 cups water",
+    "1/2 cup coconut cream",
+    "1/2 cup cilantro (chopped)"
+  ],
+  "instructions": [
+    "In large bowl, add tofu, flour, salt, pepper. Stir and mix",
+    "Set a skillet over medium heat. Add 1 tbsp olive oil. Once hot, add tofu and saute on all sides until golden-brown. Set aside.",
+    "Add 1 tbsp olive oil. Once hot, add garlic, ginger, green chilies, onion. Stir-saute for 3-4 minutes or until the onions turn golden.",
+    "Add tomato, turmeric powder, cumin powder, asafoetida, salt. Mix and cook for 5 minutes over low heat (stirring frequently).",
+    "Next, add cooked chickpeas + water. Cover lid and cook for 5 minutes over low-medium heat.",
+    "Open the lid, add fried tofu + coconut cream + freshly chopped cilantro. Your chickpea tofu curry is now ready! Serve over rice or with flatbreads!"
+  ]
+}

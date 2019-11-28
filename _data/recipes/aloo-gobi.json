@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Aloo Gobi",
+  "url": "https://www.amazon.com/Vegetarian-India-Journey-Through-Cooking/dp/1101874864",
+  "ingredients": [
+    "4 tbsp olive oil",
+    "1/4 tsp whole cumin seeds",
+    "1 large head cauliflower, cut into 1 inch florets",
+    "3-4 medium waxy potatoes, boiled, cooled, diced into 3/4 inch pieces",
+    "### Spices",
+    "2 tsp grated ginger",
+    "1 tsp ground cumin",
+    "2 tsp ground coriander",
+    "1/4 tsp ground turmeric",
+    "1/2 tsp salt (or to taste)"
+  ],
+  "instructions": [
+    "Combine spices in a bowl and add 1/4 cup of water. Mix and set aside.",
+    "Put oil in large frying pan and set over medium heat. When hot, add cumin seeds, then quickly add the cauliflower and potatoes. Stir and cook for about 10 minutes (until veggies start browning).",
+    "Add the spice mixture and stir fry for 1 minute. Add another 1/4 cup of water, lower the heat, and stir periodically for 2-5 minutes. No liquid should remain. Adjust salt to taste."
+  ]
+}

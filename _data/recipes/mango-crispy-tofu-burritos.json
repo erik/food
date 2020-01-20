@@ -1,0 +1,44 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Mango with Crispy Tofu and Peanut Sauce Burritos",
+  "url": "https://cookieandkate.com/mango-burrito-bowls-with-crispy-tofu/",
+  "ingredients": [
+    "### Baked Tofu",
+    "1 block extra firm tofu",
+    "1 tbsp olive oil",
+    "1 tbsp soy sauce",
+    "1 tbsp corn starch",
+    "1 ¼ cups brown basmati rice",
+
+    "### Peanut Sauce",
+    "⅓ cup creamy peanut butter",
+    "3 tbsp lime juice",
+    "2 tbsp soy sauce",
+    "1 tbsp maple syrup (or honey)",
+    "2 tsp toasted sesame oil",
+    "2 garlic cloves, minced",
+    "¼ teaspoon red pepper flakes",
+
+    "### Mango Salsa + Cabbage",
+    "2 large ripe magos, diced",
+    "1 medium red bell pepper, chopped",
+    "½ cup (about 4) thinly sliced green onions",
+    "¼ cup chopped cilantro",
+    "1 medium jalapeño, minced",
+    "2 tbsp lime juice",
+    "¼ tsp sea salt",
+    "2 cups shredded purple cabbage",
+    "Handful roasted, chopped peanuts"
+  ],
+  "instructions": [
+    "Drain and press tofu for 10-30 minutes to squeeze out some water. Slice lengthwise first, then into half-inch chunks.",
+    "Preheat oven to 400 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper to prevent the tofu from sticking.",
+    "Meanwhile, cook the basmati rice (rice cooker or stovetop).",
+    "Transfer the pressed tofu to the lined baking sheet and drizzle with the olive oil and soy sauce. Toss to combine. Sprinkle the starch over the tofu, and toss the tofu until the starch is evenly coated, so there are no powdery spots remaining.",
+    "Arrange the tofu in an even layer. Bake for 25 to 30 minutes, tossing the tofu halfway, until the tofu is deeply golden on the edges. Set aside.",
+    "Meanwhile, prepare the peanut sauce by whisking all the ingredients together in a bowl. Taste, and if it’s too bold, add another teaspoon of maple syrup to tame it. Set aside.",
+    "Then, in a medium mixing bowl, combine the diced mango, bell pepper, green onion, cilantro, jalapeño, lime juice and salt. Stir to combine, and set aside.",
+    "To assemble burritos, start with a big scoop of cooked rice. Top with a handful (½ cup) shredded cabbage, then a big scoop of mango salsa, a handful of baked tofu, a hefty drizzle of peanut sauce, and a little sprinkle of chopped peanuts."
+  ]
+}

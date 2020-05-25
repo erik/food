@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Same Day Sourdough",
+  "url": "https://www.kingarthurflour.com/recipes/no-knead-sourdough-bread-recipe",
+  "ingredients": [
+    "125g whole wheat flour",
+    "475g white bread flour",
+    "400g water",
+    "230g starter",
+    "18g salt"
+  ],
+  "instructions": [
+    "Mix flour + water and leave for 30 to 60 minute autolyse",
+    "Mix in starter + salt, combine",
+    "Knead dough for 10-15 minutes, until consistency noticeably changes",
+    "Cover, let rest for 4 hours",
+    "Stretch and fold dough, remove from container and shape on floured surface",
+    "Transfer shaped dough to banneton and let rise for another hour",
+    "Bake at 450 for 30 minutes lid on, followed by lid off until desired color"
+  ]
+}

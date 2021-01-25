@@ -16,8 +16,9 @@ collections:
     extension: "md"
     editor:
       preview: true
-    slug: "{year}-{month}-{day}-{slug}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'recipe' }
       - { label: "Title", name: "title", widget: "string" }
       - label: "Description"
         name: "description"
@@ -26,10 +27,12 @@ collections:
         minimal: true
       - { label: "Source URL", name: "via_url", widget: "string", required: false }
       - label: "Ingredients"
+        label_singular: "Ingredient"
         name: "ingredients"
         widget: "list"
         field: { label: "Ingredient", name: "ingredient", widget: "string" }
-      - label: "Instructions"
+      - label: "Steps"
+        label_singular: "Step"
         name: "instructions"
         widget: "list"
         field: { label: "Step", name: "step", widget: "text" }

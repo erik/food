@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "assets/images/"
+public_folder: "assets/images/"
+site_url: "https://food.erikprice.net"
+
+publish_mode: editorial_workflow
+
+collections:
+  - label: "Recipe"
+    name: "recipe"
+    folder: "_posts/"
+    create: true
+    extension: "md"
+    editor:
+      preview: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'recipe' }
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+        required: false
+        minimal: true
+      - { label: "Source URL", name: "via_url", widget: "string", required: false }
+      - label: "Ingredients"
+        label_singular: "Ingredient"
+        name: "ingredients"
+        widget: "list"
+        field: { label: "Ingredient", name: "ingredient", widget: "string" }
+      - label: "Steps"
+        label_singular: "Step"
+        name: "instructions"
+        widget: "list"
+        field: { label: "Step", name: "step", widget: "text" }

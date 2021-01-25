@@ -19,10 +19,10 @@ collections:
     slug: "{year}-{month}-{day}-{slug}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - label: "Description", 
-        name: "description", 
-        widget: "markdown", 
-        required: false 
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+        required: false
         minimal: true
       - { label: "Source URL", name: "via_url", widget: "string", required: false }
       - label: "Ingredients"

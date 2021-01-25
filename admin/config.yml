@@ -20,12 +20,9 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'recipe' }
       - { label: "Title", name: "title", widget: "string" }
-      - label: "Description"
-        name: "description"
-        widget: "markdown"
-        required: false
-        minimal: true
-      - { label: "Source URL", name: "via_url", widget: "string", required: false }
+      - { label: "Category", name: "category", widget: "select", options: ["dinner", "bread", "dessert"] }
+      - { label: "Description", name: "description", widget: "markdown", required: false, minimal: true }
+      - { label: "Source URL", name: "source_url", widget: "string", required: false }
       - label: "Ingredients"
         label_singular: "Ingredient"
         name: "ingredients"

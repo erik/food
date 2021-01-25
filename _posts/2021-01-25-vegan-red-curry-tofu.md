@@ -1,9 +1,10 @@
 ---
 layout: recipe
+category: dinner
 title: Vegan Red Curry Tofu
 description: Serve with a side of rice (obviously). Sesame seeds, scallions, Lao
   Gan Ma are good toppings.
-via_url: https://thewoksoflife.com/vegan-red-curry-tofu/
+source_url: https://thewoksoflife.com/vegan-red-curry-tofu/
 ingredients:
   - 1 pound fried tofu triangles (extra firm tofu)
   - 3 tablespoons Thai red curry paste

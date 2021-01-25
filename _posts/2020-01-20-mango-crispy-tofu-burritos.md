@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: mango-crispy-tofu-burritos
 categories: dinner
 ---

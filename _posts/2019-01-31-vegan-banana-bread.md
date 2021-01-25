@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: vegan-banana-bread
 tags: ['vegan']
 category: dessert

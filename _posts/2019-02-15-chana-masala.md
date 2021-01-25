@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: chana-masala
 title: Chana Masala
 category: dinner

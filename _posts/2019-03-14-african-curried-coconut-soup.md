@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: african-curried-coconut-soup
 tags: ['vegan']
 category: dinner

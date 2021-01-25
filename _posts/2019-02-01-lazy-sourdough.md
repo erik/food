@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: lazy-sourdough
 category: bread
 ---

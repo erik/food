@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: creamy-vegetable-risotto
 category: dinner
 ---

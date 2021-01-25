@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: chickpea-tofu-curry
 category: dinner
 ---

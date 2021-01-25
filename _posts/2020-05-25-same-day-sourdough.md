@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: same-day-sourdough
 tags: ['vegan', 'easy']
 category: bread

@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 recipe: thug-kitchen-pad-thai
 category: dinner
 ---

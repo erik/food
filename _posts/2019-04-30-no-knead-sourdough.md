@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: recipe-jsonld
 category: bread
 recipe: no-knead-sourdough
 ---

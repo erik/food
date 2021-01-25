@@ -4,20 +4,24 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/recipe.css">
 
+{% assign recipe = site.data.recipes[page.recipe] %}
+
+{%- if recipe -%}
 <script type="application/ld+json">
-  // TODO: do this
+ {{ recipe | jsonify }}
 </script>
+{%- endif -%}
 
 <div class="recipe-grid">
     <section class="header">
         <h1>
-            {{ page.title }}
-            {% if page.source_url %}
-            <small>(<a href="{{ page.source_url }}">via</a>)</small>
+            {{ recipe.name }}
+            {% if recipe.url %}
+            <small>(<a href="{{ recipe.url }}">via</a>)</small>
             {% endif %}
         </h1>
 
-        {{ page.description }}
+        {{ content }}
     </section>
 
     <section class="meta">
@@ -27,8 +31,14 @@ layout: default
     <section class="ingredients">
         <h2>Ingredients</h2>
         <ul>
-            {% for i in page.ingredients %}
-            <li class="ingredient"> {{i}} </li>
+            {% for i in recipe.ingredients %}
+                {% if i contains '###' %}
+                    <li class="ingredient-group">
+                        <h3>{{i | remove: '### '}}</h3>
+                    </li>
+                {% else %}
+                    <li class="ingredient">{{i}}</li>
+                {% endif %}
             {% endfor %}
         </ul>
     </section>
@@ -36,7 +46,7 @@ layout: default
     <section class="instructions">
         <h2>Instructions</h2>
         <ol>
-            {% for i in page.instructions %}
+            {% for i in recipe.instructions %}
             <li class="instruction">{{ i }}</li>
             {% endfor %}
         </ol>

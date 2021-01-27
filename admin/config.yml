@@ -6,8 +6,6 @@ media_folder: "assets/images/"
 public_folder: "assets/images/"
 site_url: "https://food.erikprice.net"
 
-publish_mode: editorial_workflow
-
 collections:
   - label: "Recipe"
     name: "recipe"

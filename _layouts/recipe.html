@@ -13,7 +13,7 @@ layout: default
         <h1>
             {{ page.title }}
             {% if page.source_url %}
-            <small>(<a href="{{ page.source_url }}">via</a>)</small>
+                <small>(<a href="{{ page.source_url }}">via</a>)</small>
             {% endif %}
         </h1>
 
@@ -28,7 +28,13 @@ layout: default
         <h2>Ingredients</h2>
         <ul>
             {% for i in page.ingredients %}
-            <li class="ingredient"> {{i}} </li>
+                {% if i contains '###' %}
+                    <li class="ingredient-group">
+                        <h3>{{i | remove: '### '}}</h3>
+                    </li>
+                {% else %}
+                    <li class="ingredient">{{i}}</li>
+                {% endif %}
             {% endfor %}
         </ul>
     </section>
@@ -37,7 +43,7 @@ layout: default
         <h2>Instructions</h2>
         <ol>
             {% for i in page.instructions %}
-            <li class="instruction">{{ i }}</li>
+                <li class="instruction">{{ i }}</li>
             {% endfor %}
         </ol>
     </section>
